@@ -53,6 +53,14 @@ node decrypt.js
   - Verify password exactly as provided
   - Check for hidden spaces or typos
   - Confirm password case sensitivity
+  - if wrong password is given, it will give this error
+ ```bash
+throw new Error('Malformed UTF-8 data')
+
+OR just
+
+Malformed UTF-8 data
+```
 
 ### 3. Node.js Not Recognized
 - **Solution**:
